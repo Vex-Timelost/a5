@@ -1,8 +1,10 @@
 function makeBigger() {
+  alert("Hello, world!");
   document.getElementById("textArea").style.fontSize = "24pt";
 }
- 
+
 function applyStyle() {
+  alert("Radio button changed!");
   var textArea = document.getElementById("textArea");
   if (document.getElementById("fancyShmancy").checked) {
     textArea.style.fontWeight = "bold";
@@ -14,7 +16,7 @@ function applyStyle() {
     textArea.style.textDecoration = "none";
   }
 }
- 
+
 function moo() {
   var textArea = document.getElementById("textArea");
   var text = textArea.value.toUpperCase();
